@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*start css*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+header {
+	text-align: center;
+}
+
+body {
+ background-color: #F7F7F7;
+ border: 0px solid #fff;
+ margin: 100px;
+ width: 375px;
+ height: 850px;
+ font-family: 'SF Pro Text', Helvetica, Arial, sans-serif;
+}
+
+img {
+	width: 375px;
+}
+
+.logo {
+	width: 22px;
+	padding-top: 15px;
+}
+
+.pin {
+	width: 18px,
+	padding-top: 10px;
+}
+
+.title {
+	padding-left: 28px;
+	color: #004080;
+	font-size: 18px;
+	line-height: 2.5em;
+	background-color: #E5E5E5;
+}
+.lines {
+	background: 0px, 0px, 0px; /*not working*/
+	color: #B2C0D1; /*not working line color*/
+}
+
+.busNumber {
+	font-size: 20px;
+}
+
+.busLine {
+	margin-left: 20px;
+}
+
+p {
+	display: inline;
+}
+
+.arrival { /* there is something not working here*/
+	text-align: right;
+	padding-right: 15px;
+}
+
+.location {
+	margin:15px;
+	border: 2px solid #EFEFEF;
+	border-radius: 3px;
+	background-color: #EFEFEF;
+	color: #004080;
+	line-height: 2em;
+}
+.routes {
+	color: #004080;
+	line-height: 2.5em;
+}
+
+li { /* needed/? /*adjust colors... not working*/
+	padding-left: 10px;
+  link { color:#004080; } /* unvisited */
+  visited { color:#0070BA; } /* visited */
+  hover { color:#0070BC; } /* mouse over */
+  active { color:#0070BD; } /* selected */
+}
