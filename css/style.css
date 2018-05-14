@@ -68,15 +68,36 @@ body {
 img {
 	width: 375px;
 }
-
-.logo {
-	width: 22px;
-	padding-top: 15px;
+hr {
+	border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.pin {
-	width: 18px,
-	padding-top: 10px;
+.logo {
+	width: 35px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.destbutton {
+	width: 15px;
+	padding-top: 0px;
+}
+
+.setbutton1 {
+	width: 40px;
+	padding-top: 15px; /*higher on 'my stop' line?*/
+	margin-right: 15px; /*makes button smaller???*/
+	float:right;
+}
+
+.setbutton2 {
+	width: 40px;
+	padding-top: 0px; /*higher on 'my stop' line?*/
+	margin-right: 15px; /*makes button smaller???*/
+	float:right;
 }
 
 .title {
@@ -85,10 +106,6 @@ img {
 	font-size: 18px;
 	line-height: 2.5em;
 	background-color: #E5E5E5;
-}
-.lines {
-	background: 0px, 0px, 0px; /*not working*/
-	color: #B2C0D1; /*not working line color*/
 }
 
 .busNumber {
@@ -103,9 +120,16 @@ p {
 	display: inline;
 }
 
+li {
+	margin-left: 15px;
+}
+
+.origin {
+	margin-right: 60px; /*trying to aling 'my stop' and 'work' not working*/
+}
+
 .arrival { /* there is something not working here*/
 	text-align: right;
-	padding-right: 15px;
 }
 
 .location {
@@ -119,12 +143,4 @@ p {
 .routes {
 	color: #004080;
 	line-height: 2.5em;
-}
-
-li { /* needed/? /*adjust colors... not working*/
-	padding-left: 10px;
-  link { color:#004080; } /* unvisited */
-  visited { color:#0070BA; } /* visited */
-  hover { color:#0070BC; } /* mouse over */
-  active { color:#0070BD; } /* selected */
 }
