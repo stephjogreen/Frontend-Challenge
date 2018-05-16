@@ -59,9 +59,12 @@ body {
  background-color: #F7F7F7;
  border: 0px solid #fff;
  margin: 100px;
- width: 375px;
- height: 850px;
  font-family: 'SF Pro Text', Helvetica, Arial, sans-serif;
+}
+
+.container {
+	width: 375px;
+	height: 850px;
 }
 
 img {
